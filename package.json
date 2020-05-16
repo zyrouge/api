@@ -1,0 +1,29 @@
+{
+  "name": "zyrouge-api",
+  "version": "1.0.0",
+  "description": "An API wrapper for api.zyrouge.gq",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zyrouge/api.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "ZYROUGE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zyrouge/api/issues"
+  },
+  "homepage": "https://github.com/zyrouge/api#readme",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.2"
+  }
+}
